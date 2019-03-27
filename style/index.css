@@ -1,0 +1,51 @@
+html,body,div,nav,section,header,article,footer,aside,h1,h2,h3,span,a,ul,li,input{
+	margin:0;
+	padding:0;
+	color:#333;
+	font-size: 16px;
+}
+body{
+	background: snow;
+}
+.main{
+	width:750px;
+	margin:50px auto;
+	background: white;
+	border:1px solid #eee;
+	padding: 50px;
+}
+
+nav h1{
+	text-align: center;
+	font-size: 36px;
+	padding-bottom: 30px;
+}
+.box{
+	margin-bottom: 20px;
+}
+header section{
+	margin-bottom: 20px;
+}
+header section h1 span{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+header section p{
+	line-height: 1.2em;
+	cursor: pointer;
+}
+header section p span{
+	margin-right: 10px;
+}
+header aside{
+	display:none;
+}
+section.btn{
+	text-align: center;
+}
+section button{
+	background: red;
+	margin-top:20px;
+	color:snow;
+	padding: 10px 50px;
+}
